@@ -1,0 +1,7 @@
+for (let year = 2018; year <= 2021; year++) {
+  db.activities.insertOne({
+    year: year,
+    month: 'June',
+    amount: Math.floor(Math.random() * 20) + 1, // Random amount between 1 and 20
+  });
+}
