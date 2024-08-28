@@ -1,5 +1,5 @@
 
-# datamoc.com Dashboard 
+# Datamoc.com Dashboard 
 This Full Stack web application is designed to visualize activities and orders using line and bar graphs, while also leveraging MongoDB for data storage. The project includes the creation of APIs that facilitate seamless connectivity to the MongoDB database.
 
 The application provides users with an intuitive interface to view and interact with the visual representations of the activity and order data. By utilizing MongoDB's data storage capabilities, the project ensures efficient data retrieval and management for a smooth user experience.
