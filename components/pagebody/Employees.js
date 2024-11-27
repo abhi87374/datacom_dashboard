@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlinePhone, AiOutlineMessage } from "react-icons/ai";
 import Image from 'next/image';
-const Team = () => {
+const Employees = () => {
   const member=(name,imgUrl)=>{
      return (
        <div className="flex gap-4  w-full">
@@ -30,8 +30,8 @@ const Team = () => {
   }
   return (
 
-    <div className="grid py-5 font-bold px-6 mt-6 rounded-3xl bg-yellow-200 dark:bg-yellow-950 w-max pr-10 ">
-      <h3 className="w-full ">Team</h3>
+    <div className="grid py-5 font-bold px-6 mt-6 rounded-3xl bg-[#6fcdc2] dark:bg-[#00624d] w-max pr-10 ">
+      <h3 className="w-full ">Employees</h3>
       <div className="grid gap-2 mt-3 mr-5 py-2">
         {member('Rohan Srivastav','/rohan.jpeg')}
         {member('Piyush Joshi','/piyush.webp')}
@@ -39,10 +39,10 @@ const Team = () => {
         {member('Neha Trivedi','/neha.jpg')}
       </div>
       <button className="bg-black text-yellow-200 text-sm mt-4 p-2 px-8 w-max  rounded-full">
-        Add Member
+        Add Employee
       </button>
     </div>
   );
 }
 
-export default Team
+export default Employees

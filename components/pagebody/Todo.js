@@ -18,7 +18,7 @@ const Todo = () => {
   }
   console.log(todos);
   return (
-    <div className="grid py-5 font-bold px-6 mt-6 rounded-3xl bg-yellow-200 dark:bg-yellow-950 w-max  ">
+    <div className="grid py-5 font-bold px-6 mt-6 rounded-3xl bg-[#6fcdc2] dark:bg-[#00624d] w-max  ">
       <h3 className="w-full ">To-Do</h3>
       <div className="grid gap-2 mt-3 mr-5">
         <label className="flex gap-2 items-center hover:scale-110 transition duration-300  border-amber-300 rounded-full w-full hover:shadow-2xl cursor-pointer dark:border-1 hover:text-black hover:bg-yellow-300">
@@ -29,7 +29,7 @@ const Todo = () => {
 
             className="bg-gray-200 accent-black ml-2 rounded-full p-2"
           />
-          <span className="mx-2 text-sm">Call Rohan</span>
+          <span className="mx-2 text-sm">Restocking fruits</span>
         </label>
         <label className="flex gap-2 items-center hover:scale-110 transition duration-300  border-amber-300 rounded-full w-full hover:shadow-2xl cursor-pointer dark:border-1 hover:text-black hover:bg-yellow-300">
           <input
@@ -49,7 +49,7 @@ const Todo = () => {
             className="bg-gray-200 accent-black ml-2 rounded-full p-2"
             onChange={checkboxHandler}
           />
-          <span className="mx-2 text-sm">Fix navbar bug issues</span>
+          <span className="mx-2 text-sm">Distributing new pamplets</span>
         </label>
       </div>
       <button className="bg-black text-yellow-200 text-sm mt-4 p-2 px-8 w-max  rounded-full">

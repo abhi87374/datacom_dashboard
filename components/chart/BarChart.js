@@ -31,7 +31,7 @@ const BarChart = () => {
       const res = await fetch(
         //using environment variable for base url
 
-        `/api/orders`
+        `/api/Customers`
       );
       const data = await res.json();
       console.log(data);

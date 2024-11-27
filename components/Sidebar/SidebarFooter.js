@@ -3,7 +3,7 @@ import { FaUser } from 'react-icons/fa'
 const SidebarFooter = () => {
   return (
     <div className='bg-white flex gap-2 justify-center p-7 border-black border-2 dark:bg-gray-950 rounded-3xl'>
-      <div className='border-4 rounded-full w-fit p-3 dark:bg-amber-950 bg-amber-100'>
+      <div className='border-4 rounded-full w-fit p-3 bg-[#6fcdc2] dark:bg-[#00624d]'>
         <FaUser />
       </div>
       <div className='w-max '>

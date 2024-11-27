@@ -1,11 +1,11 @@
 import React from 'react'
-import Activities from './Activities'
+// import Activities from './Activities'
 import Todo from './Todo'
 const BodyLeft = () => {
   
   return (
     <div className='grid py-2 w-1/2'>
-      <Activities />
+      {/* <Activities /> */}
       <Todo />
     </div>
   )

@@ -1,4 +1,10 @@
+    Requirements:
+     pip install boto3 pandas flask flask-cors
+     npm install react-chartjs-2 chart.js
 
+
+
+  
 # Datamoc.com Dashboard 
 This Full Stack web application is designed to visualize activities and orders using line and bar graphs, while also leveraging MongoDB for data storage. The project includes the creation of APIs that facilitate seamless connectivity to the MongoDB database.
 
@@ -32,7 +38,6 @@ Open http://localhost:3000 with your browser to see the result.
 
 
 
-    
 
 
 

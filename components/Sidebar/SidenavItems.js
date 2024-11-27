@@ -24,19 +24,20 @@ const SidenavItems = () => {
     "hover:border-opacity-100",
     "hover:border-solid",
     "hover:border-amber-300",
-    "bg-amber-300",
+    "bg-[#00624d]",
     "text-white",
     "border-2",
     "border-white",
     "border-opacity-100",
     "border-solid",
+    "dark:bg-[#6fcdc2]",
     "border-amber-300"
   );
 
   const classes = classNames(
     "text-xl",
     "font-bold",
-    "hover:bg-amber-300",
+    "hover:bg-[#6fcdc2]",
     "hover:text-white",
     "cursor-pointer",
     "rounded-3xl",
@@ -53,17 +54,16 @@ const SidenavItems = () => {
     "hover:border-opacity-100",
     "hover:border-solid",
     "hover:border-amber-300",
-    "dark:bg-amber-950",
+  
   );
 
 
   const router = useRouter();
   const { pathname } = router;
-  const isHome = pathname === "/";
-  const isCustomers = pathname === "/customers";
+  const isCustomers = pathname === "/";
   const isProducts = pathname === "/products";
   const isMarketing = pathname === "/marketing";
-  const isDiscounts = pathname === "/discounts";
+  const isSales = pathname === "/sales";
 
     
 
@@ -71,14 +71,10 @@ const SidenavItems = () => {
     <div className="mt-4">
       <div>
         <Link href="./">
-          <h1 className={isHome ?activeLinkClasses:classes}>Orders</h1>
-        </Link>
-      </div>
-      <div>
-        <Link href="./customers">
           <h1 className={isCustomers ?activeLinkClasses:classes}>Customers</h1>
         </Link>
       </div>
+    
       <div>
         <Link href="./products">
         <h1 className={isProducts ?activeLinkClasses:classes}>Products</h1>
@@ -90,8 +86,8 @@ const SidenavItems = () => {
         </Link>
       </div>
       <div>
-        <Link href="./discounts">
-        <h1 className={isDiscounts ?activeLinkClasses:classes}>Discounts</h1>
+        <Link href="./sales">
+        <h1 className={isSales ?activeLinkClasses:classes}>Sales</h1>
         </Link>
       </div>
     </div>

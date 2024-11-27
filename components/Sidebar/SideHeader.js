@@ -17,13 +17,13 @@ const SideHeader = () => {
           <Image
             className="navbarIcon border-4 border-white rounded-full "
             src="/bitmo1.jpg"
-            alt="datamoc"
+            alt="datacom"
             width={130}
             height={200}
           />
         </div>
-        <h1 className="font-bold text-3xl">Datamoc</h1>
-        <Link href="https://www.datamoc.com">www.datamoc.com</Link>
+        <h1 className="font-bold text-2x">Customer Segmentation and Marketing Strategy Dashboard</h1>
+        <Link  href="https://www.datacom.jp/">www.datacom.jp</Link>
         <div className="navIcons flex justify-between py-2">
           <FaFacebook
             className="hover:scale-110 trasition duration-200"

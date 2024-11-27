@@ -11,7 +11,7 @@ const Sidebar = () => {
   return (
     <>
       <div className=" w-min ">
-        <div className="navbar grid  p-3 w-min bg-amber-200 dark:bg-yellow-950  rounded-3xl">
+        <div className="navbar grid  p-3 w-min bg-[#6fcdc2] dark:bg-[#00624d]  rounded-3xl">
           <SideHeader />
           <SidenavItems />
           <SidebarFooter />

@@ -1,12 +1,12 @@
 import React from 'react'
-import Orders from './Orders'
-import Team from './Team'
+// import Customers from './Customers'
+import Employees from './Employees'
 
 const BodyRight = () => {
   return (
     <div className="grid py-2 w-1/2 lg:justify-items-end grid-cols-1 justify-items-start">
-      <Orders />
-      <Team />
+      {/* <Customers /> */}
+      <Employees />
     </div>
   );
 }
