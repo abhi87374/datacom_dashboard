@@ -7,7 +7,7 @@ The application facilitates:
 - **Search Functionality:** A search bar to query and filter customer details dynamically.  
 - **Cluster Insights:** APIs that compute key metrics (e.g., sum, average, median, count) for customer clusters and provide a gender distribution breakdown.  
 - **Customer-Level Information:** Detailed data for individual customers, including frequency, monetary value, recency, gender, and last purchase date.  
-
+- Toggle between **Light Mode** and **Dark Mode** for better visibility using the **Dark Mode Button**.  
 ## Features  
 - **Cluster Insights:** Aggregate statistics for monetary value, recency, and frequency, with customizable aggregation methods (e.g., sum, average, median).  
 - **Customer Search:** Retrieve individual customer details using their unique customer code.  
